@@ -1,4 +1,4 @@
-import { Fluvio} from "@fluvio/client"
+import  Fluvio from "@fluvio/client"
 
 let  producer;
 
