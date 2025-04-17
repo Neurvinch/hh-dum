@@ -1,9 +1,9 @@
-import {Client} from "groq-sdk"
+import Groq  from "groq-sdk"
 
 
-export const groqClinet  = new Client ( {
-    apiKey : "",
-    baseUrl : 'https://api.groq.com/v1'
+export const groqClinet  = new Groq( {
+    apiKey : "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",
+   
 })
 
 export async function fetchPuzzle (zoneId) {

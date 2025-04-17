@@ -1,4 +1,4 @@
-import puzzleButton from './components/puzzleButton'
+
 import './App.css'
 
 function App() {
@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-    <puzzleButton/>
       
     </>
   )
