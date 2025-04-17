@@ -8,6 +8,9 @@ export const groqClinet  = new Client ( {
 
 export async function fetchPuzzle (zoneId) {
     const {text} = await groqClinet.query({
-        model : 'narrative'
-    })
+        model : 'narrative',
+        prompt: `Generate a quick zone-capture puzzle for zone ${zoneId}`
+    });
+
+    return text ;
 }
